@@ -4,12 +4,12 @@ Overview
 This program simulates airplane boarding using Pygame. It animates passengers moving down the aisle (one tile per tick), stowing their luggage, and moving to their seats. It supports six different boarding methods, plus an option to have late-arriving passengers who do not arrive in their original place in the queue. Some key features:
 
 ## Boarding Methods:
-(0) Fully Random: Each seat is assigned at random for each passenger.\n
-(1) Back-to-Front (within each row randomly): Rows are processed from the back to the front, but seat letters are shuffled inside each row.\n
-(2) Back-to-Front, Window to Aisle: Strict seat-letter order in each row: A, F, B, E, C, D.\n
-(3) Skip Rows: Passengers fill odd rows first (from the back), then even rows (from the back). Inside each row, seat letters are shuffled.\n
-(4) Zones (3 zones: back, middle, front). Each zone’s seats are randomly ordered among themselves, but the entire back zone goes first, then middle, then front.\n
-(5) Four Groups: A custom grouping method with 4 sub-groups, each occupying seats in a special pattern (skipping rows, switching sides).\n
+(0) Fully Random: Each seat is assigned at random for each passenger.  
+(1) Back-to-Front (within each row randomly): Rows are processed from the back to the front, but seat letters are shuffled inside each row.  
+(2) Back-to-Front, Window to Aisle: Strict seat-letter order in each row: A, F, B, E, C, D.  
+(3) Skip Rows: Passengers fill odd rows first (from the back), then even rows (from the back). Inside each row, seat letters are shuffled.  
+(4) Zones (3 zones: back, middle, front). Each zone’s seats are randomly ordered among themselves, but the entire back zone goes first, then middle, then front.  
+(5) Four Groups: A custom grouping method with 4 sub-groups, each occupying seats in a special pattern (skipping rows, switching sides).  
 
 ## Late Arrivals:
 The user inputs a percentage of late passengers (0 to 100).\n
