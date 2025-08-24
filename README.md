@@ -1,6 +1,6 @@
 # Airplane-Boarding-Simulation
 
-Overview
+## Overview
 This program simulates airplane boarding using Pygame. It animates passengers moving down the aisle (one tile per tick), stowing their luggage, and moving to their seats. It supports six different boarding methods, plus an option to have late-arriving passengers who do not arrive in their original place in the queue. 
 
 <img width="804" alt="Снимок экрана 2025-03-13 в 11 07 58" src="https://github.com/user-attachments/assets/27d13ed2-6e5d-46da-a317-c06edcf745a2" />
